@@ -41,7 +41,7 @@ const Register = () => {
         //  Object Destructering instead of writing user.name
          const {name , email , phone , work , password , cpassword} = user;
 
-        const res = await fetch("/register" , {
+        const res = await fetch("https://secure-lowlands-21452.herokuapp.com/register" , {
         
         method : "POST",
         headers:{
