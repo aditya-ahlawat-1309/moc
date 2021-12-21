@@ -8,7 +8,7 @@ function Logout() {
 const history = useHistory();
 
 useEffect(() => {
-fetch('/logout' , {
+fetch('https://secure-lowlands-21452.herokuapp.com/logout' , {
     method:"GET",
     headers:{
         Accept:"appllication/json",
