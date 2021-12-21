@@ -1,0 +1,35 @@
+.triangle {
+
+  clip-path: url(#cp);
+  
+  
+  width: 15%;
+  height: 15%;
+
+  /* clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);   */
+/* clip-path: polygon(50% 0, 100% 100%, 0 100%); */
+
+  background-size: cover;
+  background-blend-mode: screen;
+  
+
+  position: absolute;
+  top: 19%;
+  left: -0%;
+}
+
+.first {
+  background-color: #C5075C;
+  background-image: url("https://media.giphy.com/media/pE6GG0V2JCKUo/giphy.gif");
+  
+ transform: translateX(-65%) translateY(-50%);
+}
+
+.second {
+  background-color: #03B897; 
+  background-image: url("https://media3.giphy.com/media/3ohjUSz7NyYWHNNQeA/200w.webp?cid=ecf05e474ac4u7rce0ej819364jk54wn6ecg3d25f5czy9x6&rid=200w.webp&ct=g");
+  
+  transform: translateX(-25%) translateY(-25%);
+  
+  opacity: 0.8;
+}
